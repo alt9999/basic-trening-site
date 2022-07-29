@@ -1,0 +1,79 @@
+body{ font-family: 'Hack', monospace; }
+body{
+    background-color: #bcd3f7;
+    padding: 0;
+    margin: 0;
+}
+
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 30px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+
+.mapa-push{
+    height: 50px;
+    width: 50px;
+    background-color: #ff7575;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.mapa-pull{
+    height: 50px;
+    width: 50px;
+    background-color: #f7bef4;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.mapa-legs{
+    height: 50px;
+    width: 50px;
+    background-color: #bef7c8;;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.mapa-free{
+    height: 50px;
+    width: 50px;
+    background-color: #f7e8be;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.wrapper{
+    display: flex;
+    background-color: #adccff;  
+    height: 80px;
+    width: 260px;
+    align-items: center;
+}
+
+.view{
+    border: 1px solid black;
+    height:540px;
+    width: 960px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
